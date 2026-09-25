@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  PinItHere
+
+  Created by YY.COUPLE on 2025-09-23.
+  
+*/
+
+// MARK: - App Name
+"CFBundleDisplayName" = "PinItHere!";
+
+// MARK: - Privacy Description

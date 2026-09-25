@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  PinItHere
+
+  Created by YY.COUPLE on 2025-09-23.
+  
+*/
+
+// MARK: - App Name
+"CFBundleDisplayName" = "随地笺";
+
+// MARK: - Privacy Description
+"NSCameraUsageDescription" = "申请使用摄像机";
+"NSMotionUsageDescription" = "申请使用运动与动作数据";
+"NSLocationWhenInUseUsageDescription" = "申请使用App时定位";
+"NSLocationTemporaryUsageDescriptionDictionary.full-accuracy" = "申请临时精确定位";
+"NSLocationAlwaysUsageDescription" = "申请永久定位";

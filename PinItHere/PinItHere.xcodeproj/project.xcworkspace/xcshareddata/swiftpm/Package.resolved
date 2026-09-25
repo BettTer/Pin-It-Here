@@ -1,0 +1,33 @@
+{
+  "originHash" : "3376928890f1adde43d18fdf7f176de03fa1db45327aa38a2ff1c376e66bb4f9",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "paper-onboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Ramotion/paper-onboarding.git",
+      "state" : {
+        "revision" : "c36df080b1001c385cc14c85f3b1c5ea36531fd0",
+        "version" : "6.1.5"
+      }
+    },
+    {
+      "identity" : "progresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/relatedcode/ProgressHUD",
+      "state" : {
+        "revision" : "4aa638a88450d6d48a6620070722e875e7a179ef",
+        "version" : "14.1.4"
+      }
+    }
+  ],
+  "version" : 3
+}

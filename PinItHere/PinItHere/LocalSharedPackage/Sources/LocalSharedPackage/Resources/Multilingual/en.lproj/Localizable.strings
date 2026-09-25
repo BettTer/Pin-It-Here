@@ -1,0 +1,268 @@
+/*
+  Localizable.strings
+  PlanFlow
+
+  Created by YY.COUPLE on 2025-06-17.
+  
+*/
+// MARK: - Data
+"DiscordInviteLink" = "https://discord.gg/CUxT5MNRNK";
+
+// MARK: - Title
+"Plans" = "Plans";
+"Start" = "Start";
+"More" = "More";
+"About" = "About";
+"Introduction" = "Introduction";
+"Detail" = "Detail";
+"Setting" = "Setting";
+"ManageNotification" = "Manage notification";
+
+// MARK: - Text
+"Times" = "Times";
+"Days" = "Days";
+"Top" = "Top";
+"Important" = "Important";
+"Ordinary" = "Ordinary";
+
+"Notification" = "Notification center";
+"Preview" = "Preview";
+"Widget_Small" = "Widget_small";
+"Widget_Medium" = "Widget_medium";
+"Widget_Large" = "Widget_large";
+
+"Notification Time" = "Notification time";
+"Early Reminders" = "Early expiration reminder";
+"SetUpPlanExpirationNotifications" = "Enable early expiration reminders";
+"Daily Summary Notification" = "Daily summary notification";
+"EnableDailySummaryNotification" = "Enable daily summary notification";
+"Historical summary notifications" = "Historical summary notifications";
+"Unfinished Plan Reminders" = "Unfinished plan reminder";
+
+"Unfinished Plan Reminder Content_One-time" = "You missed it. Don’t let it slip away next time. Flowers bloom again, but youth doesn’t return.";
+"Unfinished Plan Reminder Content" = "The next cycle has been automatically started, please cherish it. Flowers bloom again, but youth doesn’t return.";
+
+"Expiration Notice" = "Expiration Notice";
+"Your plan has expired" = "Your plan has expired";
+"Your one-time plan has expired" = "Your one-time plan has expired";
+
+"Join our" = "Join our";
+"Discord" = "Discord";
+"group" = "group";
+
+"IntroductionContent" = "Original Purpose:\n
+As a developer, I once felt that most planning apps on the App Store were hard to use. They didn’t truly visualize goals and progress, nor did they effectively motivate users. After conducting surveys and research into what people really need, I created this app. The core idea is to make every check-in for your plan feel direct and rewarding, while also giving you great encouragement. I hope you find it both handy and enjoyable to use.\n\n
+Some Quick Tips:\n
+First, TOP plan is the most important one. You can set your most urgent plan as a TOP plan. To help you focus better, you can only have one TOP plan at a time. The app also offers a variety of widgets that you can freely combine and place on your home screen for quick access. Some of these widgets even include buttons for direct actions, so you can operate them without opening the app. Everything is designed with your needs in mind, and I believe you’ll make great use of it.\n
+You are very welcome to join our Discord group to share any thoughts or feedback you have.";
+
+// MARK: - Button
+"Done" = "Done";
+"In Advance" = "In advance";
+"Notice" = "Notice";
+"None" = "None";
+
+// MARK: - Hint
+"Example Plan" = "Example plan";
+"Example Plan, can be deleted at any time" = "Example plan, can be deleted at any time";
+"In Progress" = "In progress";
+"Finished" = "Finished";
+"Paused" = "Paused";
+"Ended" = "Ended";
+
+"SmallWidget.description" = "Displays the most essential plan information in a minimal space";
+"MediumWidget_Single.description" = "Displays a plan dashboard in a medium space, visualizing key information and providing quick action buttons (such as done) so you can interact with the widget even when you're not in the app";
+"MediumWidget_Group.description" = "Displays the most essential plan information for up to 3 plans in a medium space. You can freely combine them to suit your needs";
+"LargeWidget.description" = "Displays summary information for expiring plans in the largest space. You can freely select the expiration timing you want to display";
+
+"Notification.description" = "You have turned off our app's notification. \n\nIf you want to receive them, like early expiration reminders and daily summary notification, please tap this text to system's setting to turn it on.";
+
+// MARK: - Notification
+"Left" = "Left";
+"Target for this period" = "Target for this period";
+"Remaining to be completed" = "Remaining to be completed";
+
+// MARK: - PlanTag
+"Fitness" = "Fitness";
+"Gaming" = "Gaming";
+"Mindfulness" = "Mindfulness";
+"Personal" = "Personal";
+"Reading" = "Reading";
+"Work" = "Work";
+"Study" = "Study";
+"Custom" = "Custom";
+
+// MARK: - PlanFlowModel
+"Importance" = "Importance";
+"Current Cycle Start Date" = "Current cycle start date";
+"Current Cycle" = "Current cycle";
+"Completed In Current Cycle" = "Completed in current cycle";
+"Need To Be Completed" = "Need to be completed";
+"Paused During This Cycle" = "Paused during this cycle";
+
+"This Cycle" = "This cycle";
+"Started" = "Started";
+"Time Has Passed" = "Time has passed";
+"Completed Once" = "Completed once";
+"This Cycle Has Been Completed" = "This cycle has been completed";
+"Corrected Completion Times" = "Corrected completion times";
+"After correction" = "After correction";
+"Resumed" = "Resumed";
+"This Cycle Ended" = "This cycle ended";
+
+"Historical Completion Records" = "Historical completion records";
+"Average Completion Cycle Days" = "Average completion cycle days";
+"Longest Cycle" = "Longest cycle";
+"Shortest Cycle" = "Shortest cycle";
+
+// MARK: - PlanCompletionStatus
+"Completed ahead of schedule" = "Completed ahead of schedule";
+"Completed normally" = "Completed normally";
+"Completed late" = "Completed late";
+"Not completed" = "Not completed";
+
+// MARK: - SelectTag_SUIV
+"What do you want to focus on?" = "What do you want to focus on?";
+"Please re-choose a type." = "Please re-choose a type.";
+"Choose a type to get started." = "Choose a type to get started.";
+
+// MARK: - NameYourPlan_SUIV
+"Name" = "Name";
+"Next" = "Next";
+
+// MARK: - SetCycleInfo_SUIV
+"Set the duration of the planning cycle: " = "Set the duration of the planning cycle: ";
+"Set the number of goals to achieve per cycle:" = "Set the number of goals to achieve per cycle:";
+"Select the number of days in the planning cycle" = "Select the number of days in the planning cycle";
+"Select the number of goals to achieve per cycle" = "Select the number of goals to achieve per cycle";
+
+// MARK: - SetImportantLevel_SUIV
+"Set plan importance:" = "Set plan importance:";
+"Is this a one-time plan?" = "Is this a one-time plan?";
+"Create your new plan" = "Create your new plan";
+"Choose plan importance:" = "Choose plan importance:";
+"You can only have one plan with TOP importance. \n\nThis plan will be displayed separately in some widgets." = "You can only have one plan with tOP importance. \n\nThis plan will be displayed separately in some widgets.";
+"Choose whether it is a one-time plan" = "Choose whether it is a one-time plan";
+"One-time plans do not recur automatically" = "One-time plans do not recur automatically";
+
+// MARK: - EditPlan_SUIV
+"ELSE" = "ELSE";
+"Correct current completion count: " = "Correct current completion count: ";
+"Saved current completion count" = "Saved current completion count";
+"Choose current accurate completion count" = "Choose current accurate completion count";
+"Tag Type" = "Type";
+"Cycle information" = "Cycle information";
+
+// MARK: - LineChartDetail_SUIView
+"Detailed history" = "Detailed history";
+
+// MARK: - PlanFlowDetail_SUIView
+"Start a new cycle" = "Start a new cycle";
+"Continue with the plan" = "Continue with the plan";
+"Check in to complete the goal" = "Check in to complete the goal";
+"Started a new cycle" = "Started a new cycle";
+"A completion has been recorded" = "A completion has been recorded";
+"Do you want to delete this plan?" = "Do you want to delete this plan?";
+"Are you sure you have completed the goal once?" = "Are you sure you have completed the goal once?";
+"Cancel" = "Cancel";
+"OK" = "OK";
+
+// MARK: - SinglePlanOptionMenu
+"Automatically displayed in the widget" = "Automatically displayed in the widget";
+"Continue" = "Continue";
+"Pause" = "Pause";
+"Edit" = "Edit";
+"Delete" = "Delete";
+
+// MARK: - PlanFlowList_SwiftUIView
+"By Importance" = "By importance";
+"By Expiration Date" = "By expiration date";
+"By Type" = "By type";
+"FirstPlanHint" = "Tap below \"Start\" button to create your fist plan.";
+
+// MARK: - GlobalRoute
+"Select a type" = "Select a type";
+"Edit your plan" = "Edit your plan";
+"Name your plan" = "Name your plan";
+"Rename your plan" = "Rename your plan";
+"Set your own cycle" = "Set your own cycle";
+
+// MARK: - PlanFlowModel
+"Completed this one-time plan" = "Completed this plan";
+"Completed this cycle" = "Completed this cycle";
+"You did not complete this plan 😞" = "You did not complete this plan.😞";
+"You didn’t finish this plan in the last cycle 😞" = "You didn’t finish this plan in the last cycle. 😞";
+"Remaining" = "Expires in";
+"Completed" = "Completed";
+"Next cycle: " = "Next cycle: ";
+"later" = "later";
+
+// MARK: - PlanDataManager
+"Expires in 3 days" = "Expires in 3 days";
+"Expires in 3-7 days" = "Expires in 3-7 days";
+"Expires in 7-14 days" = "Expires in 7-14 days";
+"Expires beyond 14 days" = "Expires beyond 14 days";
+
+// MARK: - PustNotificationManager
+"Plan Name" = "Plan name";
+
+// MARK: - DailySummaryData
+"Summary" = "Summary";
+"Today" = "Today";
+"That day" = "That day";
+"Total number of plans" = "Total number of plans";
+"Number of paused plans" = "Number of paused plans";
+"Record of that day" = "Record of that day";
+"Create" = "Create";
+"Check-in" = "Check-in";
+"Correction completion times" = "Correction completion times";
+"Fishish cycle" = "Fishish cycle";
+"Start new cycle" = "Start new cycle";
+"DoNothing" = "You did nothing today — push harder tomorrow. Flowers bloom again, but youth doesn’t return.";
+
+// MARK: - PlanFlowWidgetView_Large
+"Until Expiring Plans" = "Until expiring plans";
+"Expected Delay" = "Expected delay";
+"On Track" = "On track";
+"Currently Paused" = "Currently paused";
+
+// MARK: - SinglePlanFlowWidgetView
+"Please set the plan you want to display" = "Please set the plan you want to display";
+"Please set the plan to Top importance.\nOr long press the widget to edit" = "Please set the plan to top importance.\nOr long press the widget to edit";
+
+// MARK: - SelectSinglePlanConfigurationAppIntent
+"Select a plan to display" = "Select a plan to display";
+"Pick a plan with" = "Pick a plan with";
+
+// MARK: - SelectSinglePlanEntryIntentType
+"This widget only supports small and medium sizes" = "This widget only supports small and medium sizes";
+"Please try to reset" = "Please try to reset";
+"The plan you selected is not found" = "The plan you selected is not found";
+
+// MARK: - MultiplePlansConfigurationAppIntent
+"Plan shown on the left" = "Plan shown on the left";
+"Plan shown in the middle" = "Plan shown in the middle";
+"Plan shown on the right" = "Plan shown on the right";
+
+// MARK: - onboarding
+"Onboarding" = "Onboarding experience";
+"OnboardingItemInfo_Title_1" = "   A clear and intuitive plan visualization page   ";
+"OnboardingItemInfo_Description_1" = "\n\n\nThe arc on the gauge represents the time progress, the pointer below shows the number of completions within each cycle. \n\nHelping you grasp all the information at a glance. \n\nPS: Recurring plans will automatically start a new cycle~";
+
+"OnboardingItemInfo_Title_2" = "   Check-ins and pause operations   ";
+"OnboardingItemInfo_Description_2" = "\n\n\nIn each plan’s detail page,\nyou can freely check in or pause your progress. \n\nThere are also rich charts and tables to help you keep track of everything.";
+
+"OnboardingItemInfo_Title_3" = "   A wide variety of widgets   ";
+"OnboardingItemInfo_Description_3" = "\n\n\nOffering 5 different types of widgets,\nyou can freely combine them to track your plans. \n\nSome even allow direct actions right from the widget without opening the app.";
+
+"OnboardingItemInfo_Title_4" = "   Three types of notifications to keep you on track   ";
+"OnboardingItemInfo_Description_4" = "\n\n\nThe system provides 3 kinds of notifications:\n\nEarly reminders, daily summaries and unfinished plan alerts. \n\nSo you can better stay on top of your daily progress. \n\nAnd there are more small details waiting for you to discover!";
+
+// MARK: - Crash reportor
+"Crash title" = "😢Crash detected";
+"Crash message" = "The app crashed last time it was launched... send a crash report?";
+"Crash yesAnswer" = "Sure";
+"Crash noAnswer" = "No thanks";
+
+
+

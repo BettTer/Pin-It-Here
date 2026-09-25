@@ -1,0 +1,259 @@
+/* 
+  Localizable.strings
+  PlanFlow
+
+  Created by YY.COUPLE on 2025-06-17.
+  
+*/
+// MARK: - Data
+"DiscordInviteLink" = "https://discord.gg/2S38SzadGv";
+
+// MARK: - Title
+"Plans" = "计划";
+"Start" = "新建";
+"More" = "更多";
+"About" = "关于";
+"Introduction" = "介绍";
+"Detail" = "详情";
+"Setting" = "设置";
+"ManageNotification" = "管理通知";
+
+// MARK: - Text
+"Times" = "次";
+"Days" = "天";
+"Top" = "置顶";
+"Important" = "重要";
+"Ordinary" = "普通";
+"Notification" = "通知中心";
+"Preview" = "预览";
+"Widget_Small" = "小组件_小";
+"Widget_Medium" = "小组件_中";
+"Widget_Large" = "小组件_大";
+
+"Notification Time" = "通知时间";
+"Early Reminders" = "提前到期通知";
+"SetUpPlanExpirationNotifications" = "开启提前到期通知";
+"Daily Summary Notification" = "每日汇总通知";
+"EnableDailySummaryNotification" = "开启每日汇总通知";
+"Historical summary notifications" = "历史汇总通知";
+"Unfinished Plan Reminders" = "未完成计划通知";
+"Unfinished Plan Reminder Content_One-time" = "错过了这次, 望下次别再错过. 花有重开日, 人无再少年.";
+"Unfinished Plan Reminder Content" = "已自动开启下一周期, 请再接再厉. 花有重开日, 人无再少年.";
+"Expiration Notice" = "到期通知";
+"Your plan has expired" = "您的计划已到期";
+"Your one-time plan has expired" = "您的一次性计划已到期";
+
+"Join our" = "加入我们的";
+"Discord" = "Discord";
+"group" = "群组";
+
+"IntroductionContent" = "初衷: \n作为一名开发者 曾经我认为AppStore里的计划类App都很难用 并没有真正具象化自己的目标和进度, 以及实现对使用者的督促. 经过对大家需求的调查和研究 我开发了此款App. 核心点便是将每次完成计划的打卡变得直观且有成就感, 而且对使用者有很好的鼓励效果. 希望你用的顺手且开心.\n\n\n一些小Tips: \n首先置顶类计划是最重要的 你可以把你认为最紧迫的的计划重要性设为它. 为了更好的帮助你集中注意力 目前我们只能有一个置顶类计划. 同时 App提供了丰富的小组件 你可以自由的去将它组合并放在桌面上进行及时查看. 而且我们的某些小组件也提供了直接进行操作的按钮 方便你在不打开App的时候就进行操作. 总之 一切从你的需求出发 相信你会用好它. \n十分欢迎你可以加入我们的 Discord群组 分享你的任何意见或者看法.";
+
+// MARK: - Button
+"Done" = "完成";
+"Notice" = "通知";
+"In Advance" = "提前";
+"None" = "无";
+
+// MARK: - Hint
+"Example Plan" = "示例计划";
+"Example Plan, can be deleted at any time" = "示例计划, 可随时删除";
+"In Progress" = "进行中";
+"Finished" = "已完成";
+"Paused" = "已暂停";
+"Ended" = "已结束";
+
+"SmallWidget.description" = "以最小空间展示计划的最核心信息";
+"MediumWidget_Single.description" = "以中等空间展示计划的仪表盘, 使核心信息具象化, 并提供了快捷操作(如完成等)按钮, 使您在不打开App的时候依然可以使用该小组件进行交互";
+"MediumWidget_Group.description" = "以中等空间同时展示3个计划的最核心信息, 您可以自由的根据您的需求进行组合";
+"LargeWidget.description" = "以最大空间展示即将到期计划的汇总信息, 您可以自由的选择您需要展示的期限";
+
+"Notification.description" = "您已经关闭了我们的通知. \n\n如果你希望接收如提前到期通知, 每日汇总等通知, 请点击此文字跳转到系统设置打开我们的通知权限.";
+
+// MARK: - Notification
+"Left" = "后到期";
+"Target for this period" = "本周期内目标";
+"Remaining to be completed" = "还需完成";
+
+// MARK: - PlanTag
+"Fitness" = "健身";
+"Gaming" = "娱乐";
+"Mindfulness" = "正念";
+"Personal" = "个人";
+"Reading" = "阅读";
+"Work" = "工作";
+"Study" = "学习";
+"Custom" = "自定义";
+
+// MARK: - PlanFlowModel
+"Importance" = "重要程度";
+"Current Cycle Start Date" = "当前周期开始日期";
+"Current Cycle" = "当前周期";
+"Completed In Current Cycle" = "当前周期已完成";
+"Need To Be Completed" = "还需完成";
+"Paused During This Cycle" = "本周期内已暂停";
+
+"This Cycle" = "本周期";
+"Started" = "开始";
+"Time Has Passed" = "时间已过";
+"Completed Once" = "完成了一次";
+"This Cycle Has Been Completed" = "本周期累计已完成";
+"Corrected Completion Times" = "校正了完成次数";
+"After correction" = "校正后";
+"Resumed" = "已恢复";
+"This Cycle Ended" = "本周期结束";
+
+"Historical Completion Records" = "历史完成记录";
+"Average Completion Cycle Days" = "平均完成周期天数";
+"Longest Cycle" = "最长周期";
+"Shortest Cycle" = "最短周期";
+
+// MARK: - PlanCompletionStatus
+"Completed ahead of schedule" = "提前完成";
+"Completed normally" = "正常完成";
+"Completed late" = "延误完成";
+"Not completed" = "未完成";
+
+// MARK: - SelectTag_SUIV
+"What do you want to focus on?" = "您想专注于什么?";
+"Please re-choose a type." = "请重新选择计划类型";
+"Choose a type to get started." = "请选择一个类型以开始";
+
+// MARK: - NameYourPlan_SUIV
+"Name" = "名称";
+"Next" = "下一步";
+
+// MARK: - SetCycleInfo_SUIV
+"Set the duration of the planning cycle: " = "设置计划周期时长: ";
+"Set the number of goals to achieve per cycle:" = "设置每周期内达成目标数: ";
+"Select the number of days in the planning cycle" = "选择计划周期时长";
+"Select the number of goals to achieve per cycle" = "选择每周期内达成目标数";
+
+// MARK: - SetImportantLevel_SUIV
+"Set plan importance:" = "设置计划重要程度: ";
+"Is this a one-time plan?" = "是否为一次性计划? ";
+"Create your new plan" = "创建你的新计划";
+"Choose plan importance:" = "选择计划重要程度";
+"You can only have one plan with TOP importance. \n\nThis plan will be displayed separately in some widgets." = "您只能拥有一个置顶的计划。\n\n该计划将在某些小部件中单独且特殊的显示。";
+"Choose whether it is a one-time plan" = "选择是否为一次性计划";
+"One-time plans do not recur automatically" = "一次性计划不会自动重复";
+
+// MARK: - EditPlan_SUIV
+"ELSE" = "其他";
+"Correct current completion count: " = "校正当前完成次数: ";
+"Saved current completion count" = "已保存当前完成次数";
+"Choose current accurate completion count" = "选择当前准确完成次数";
+"Tag Type" = "类型";
+"Cycle information" = "周期信息";
+
+// MARK: - LineChartDetail_SUIView
+"Detailed history" = "详细历史记录";
+
+// MARK: - PlanFlowDetail_SUIView
+"Start a new cycle" = "开始新周期";
+"Continue with the plan" = "继续进行计划";
+"Check in to complete the goal" = "完成目标打卡";
+"Started a new cycle" = "已开始新周期";
+"A completion has been recorded" = "已记录一次完成";
+"Do you want to delete this plan?" = "是否要删除该计划?";
+"Are you sure you have completed the goal once?" = "确定已经完成了一次目标吗?";
+"Cancel" = "取消";
+"OK" = "确定";
+
+// MARK: - SinglePlanOptionMenu
+"Automatically displayed in the widget" = "已在小组件内显示";
+"Continue" = "继续";
+"Pause" = "暂停";
+"Edit" = "编辑";
+"Delete" = "删除";
+
+// MARK: - PlanFlowList_SwiftUIView
+"By Importance" = "按重要程度";
+"By Expiration Date" = "按到期时间";
+"By Type" = "按类型";
+"FirstPlanHint" = "点击下方的新建按钮来创建你的第一个计划";
+
+// MARK: - GlobalRoute
+"Select a type" = "选择一个类型";
+"Edit your plan" = "编辑计划";
+"Name your plan" = "命名计划";
+"Rename your plan" = "重命名计划";
+"Set your own cycle" = "设置自定义周期";
+
+// MARK: - PlanFlowModel
+"Completed this one-time plan" = "已完成该一次性计划";
+"Completed this cycle" = "已完成该周期";
+"You did not complete this plan 😞" = "您未完成该计划.😞";
+"You didn’t finish this plan in the last cycle 😞" = "您在上个周期内未完成该计划.😞";
+"Remaining" = "剩余";
+"Completed" = "已完成";
+"Next cycle: " = "下一周期: ";
+"later" = "后";
+
+// MARK: - PlanDataManager
+"Expires in 3 days" = "3天内到期";
+"Expires in 3-7 days" = "3-7天内到期";
+"Expires in 7-14 days" = "7-14天以内到期";
+"Expires beyond 14 days" = "14天以外到期";
+
+// MARK: - PustNotificationManager
+"Plan Name" = "计划名称";
+
+// MARK: - DailySummaryData
+"Summary" = "汇总";
+"Today" = "今日";
+"That day" = "当日";
+"Total number of plans" = "共有计划";
+"Number of paused plans" = "已暂停计划";
+"Record of that day" = "当日记录";
+"Create" = "创建";
+"Check-in" = "完成打卡";
+"Correction completion times" = "修正完成次数";
+"Fishish cycle" = "完成周期";
+"Start new cycle" = "开始新周期";
+"DoNothing" = "今天您什么都没有做, 请明天加油. 花有重开日, 人无再少年. ";
+
+// MARK: - PlanFlowWidgetView_Large
+"Until Expiring Plans" = "内到期计划";
+"Expected Delay" = "预计超期";
+"On Track" = "预计正常完成";
+"Currently Paused" = "当前已暂停计划";
+
+// MARK: - SinglePlanFlowWidgetView
+"Please set the plan you want to display" = "请设置您需要展示的计划";
+"Please set the plan to Top importance.\nOr long press the widget to edit" = "请将计划设置为Top等级 \n或长按小组件进行编辑";
+
+// MARK: - SelectSinglePlanConfigurationAppIntent
+"Select a plan to display" = "选择一个计划展示";
+"Pick a plan with" = "选择一个计划";
+
+// MARK: - SelectSinglePlanEntryIntentType
+"This widget only supports small and medium sizes" = "该小组件只支持小尺寸和中尺寸显示";
+"Please try to reset" = "请尝试重新设置";
+"The plan you selected is not found" = "未查询到您所选择的计划";
+
+// MARK: - MultiplePlansConfigurationAppIntent
+"Plan shown on the left" = "左侧显示的计划";
+"Plan shown in the middle" = "中间显示的计划";
+"Plan shown on the right" = "右侧显示的计划";
+
+
+// MARK: - onboarding
+"Onboarding" = "新手引导";
+"OnboardingItemInfo_Title_1" = "简单明了的可视化计划页面";
+"OnboardingItemInfo_Description_1" = "\n\n\n每一个计划的仪表盘上方的圆弧代表时间进度, 下方的指针代表每个周期内的完成次数. \n\n帮助您第一时间掌握所有信息\n\nPS: 非一次性计划会自动开启循环哦~";
+
+"OnboardingItemInfo_Title_2" = "完成打卡以及暂停等操作";
+"OnboardingItemInfo_Description_2" = "\n\n\n在每一个计划的详情页, 您可以自由的进行完成打卡或者暂停等操作.\n\n 同时还有丰富的图表和表格帮助您掌握所有信息.";
+
+"OnboardingItemInfo_Title_3" = "丰富的小组件系统";
+"OnboardingItemInfo_Description_3" = "\n\n\n提供了5种各式各样的小组件. \n\n您可以自由的组合它们来帮助你了解信息. \n\n有些甚至可以直接在小组件上对您的计划进行操作哦~";
+
+"OnboardingItemInfo_Title_4" = "三种通知为你保驾护航";
+"OnboardingItemInfo_Description_4" = "\n\n\n系统内有3种通知, 分别是: \n\n提前通知, 每日汇总和未完成计划通知\n\n 让你更好的了解每一天的动向 \n\n还有更多小细节 等你来发现!";
+
+// MARK: - Crash reportor
+"Crash title" = "😢检测到崩溃";
+"Crash message" = "该应用上次启动时崩溃了...是否发送崩溃报告?";
+"Crash yesAnswer" = "确定";
+"Crash noAnswer" = "不用了，谢谢";
