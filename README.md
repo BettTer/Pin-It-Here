@@ -4,6 +4,12 @@ Pin a note to a real wall, floor, or ceiling with your iPhone, walk away, and fi
 
 Pin It Here is an iOS prototype built with **ARKit** and **RealityKit**. It is the technical core of a location-based social app idea: instead of matching strangers by their photos, people leave notes on real places, and the next person who stands there can read them and start a conversation with context.
 
+<p align="center">
+  <img src="Screenshots/demo-placing-a-note.jpg" alt="The green placement reticle locked onto a wall, with a placed note to its right" width="300">
+  <br>
+  <em>A green reticle means a note can be placed here. A note placed earlier sits on the wall to the right.</em>
+</p>
+
 ## Status
 
 This is a working prototype of the AR core, not a finished app.
@@ -18,7 +24,7 @@ This is a working prototype of the AR core, not a finished app.
 
 ## What it does
 
-- **Finds surfaces in real time.** The session detects horizontal and vertical planes. Every frame, a raycast from the center of the screen looks for a surface, and a custom placement reticle shows when a note can be placed.
+- **Finds surfaces in real time.** The session detects horizontal and vertical planes. Every frame, a raycast from the center of the screen looks for a surface. A custom placement reticle turns red when there is no surface or tracking is poor, yellow while ARKit is still mapping the room, and green when a note can be placed.
 - **Renders notes from SwiftUI.** A note is a SwiftUI view rendered to an image with `ImageRenderer` and applied as an unlit material on a plane mesh, so any SwiftUI layout, emoji, or rich text can become a note in the room.
 - **Uses scene reconstruction when available.** On devices with LiDAR, the session builds a classified mesh of the room.
 - **Saves everything needed to find a note again.** Each note is stored locally as JSON with its transform, size, anchor, its pose relative to the camera at placement, an archived `ARWorldMap`, and the GPS position and true heading at that moment.
@@ -52,6 +58,7 @@ PinItHere/
     │                           rendering, reticle meshes, AR models
     ├── LocalSharedPackage/     Note model and store, math (ENU and heading), utilities
     └── Resources/              Info.plist, assets, English and Simplified Chinese strings
+Screenshots/                    Images used in this README
 ```
 
 ## Requirements
